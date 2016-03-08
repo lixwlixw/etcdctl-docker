@@ -4,9 +4,7 @@
 # http://github.com/tenstartups/etcdctl
 #
 
-FROM tenstartups/alpine:latest
-
-MAINTAINER Marc Lennox <marc.lennox@gmail.com>
+FROM index.alauda.cn/linzhiqiang/centos6:latest
 
 # Set environment variables.
 ENV \
